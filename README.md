@@ -4,17 +4,18 @@ A scalable, full-stack enterprise project management dashboard built with **Java
 
 ---
 
-## Architecture Overview ```
-text
+## Architecture Overview
+
+```text
 enterprise-project-tracker/
 ├── backend-demo/          # Spring Boot 3 REST API (Java 17/21)
 │   ├── src/main/java/     # Layered architecture (Controller, Service, Repository, DTO, Model)
 │   ├── Dockerfile         # Multi-stage JDK build
 │   └── pom.xml            # Maven configuration
 └── frontend-demo/         # Nuxt 3 + Vuetify Client Application
-├── app/               # Vue 3 reactive pages, layouts, and Pinia stores
-├── Dockerfile         # Containerized production build
-└── nuxt.config.ts     # TypeScript & Vuetify plugin configurations.
+    ├── app/               # Vue 3 reactive pages, layouts, and Pinia stores
+    ├── Dockerfile         # Containerized production build
+    └── nuxt.config.ts     # TypeScript & Vuetify plugin configurations
 
 ---
 

@@ -7,9 +7,7 @@ A scalable, full-stack enterprise project management dashboard built with **Java
 
 ## Architecture Overview
 
-```
-
-text
+```text
 enterprise-project-tracker/
 ├── backend-demo/          # Spring Boot 3 REST API (Java 17/21)
 │   ├── src/main/java/     # Layered architecture (Controller, Service, Repository, DTO, Model)

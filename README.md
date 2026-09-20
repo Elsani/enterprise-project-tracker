@@ -15,8 +15,8 @@ enterprise-project-tracker/
 └── frontend-demo/         # Nuxt 3 + Vuetify Client Application
     ├── app/               # Vue 3 reactive pages, layouts, and Pinia stores
     ├── Dockerfile         # Containerized production build
-    └── nuxt.config.ts`     # TypeScript & Vuetify plugin configurations
-
+    └── nuxt.config.ts     # TypeScript & Vuetify plugin configurations
+```
 ---
 
 ## Tech Stack
